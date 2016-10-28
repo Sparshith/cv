@@ -1,0 +1,144 @@
+body {
+	background-color: rgb(82, 86, 89);
+	font-size: 13px;
+	color: #2d2d2d;
+	font-family: 'Dosis','Helvetica Neue', Helvetica,Arial,sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* Misc styles */
+.wrapper {
+	background-color: #fefefe;
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+.middot {
+    -webkit-text-fill-color: #2d2d2d;
+ 	-webkit-text-stroke-color: #2d2d2d;
+ 	-webkit-text-stroke-width: 3px;
+  	margin-right: 3px; 
+ 	margin-left: 3px; 
+}
+
+
+/* Styles for the header */
+#header {
+	text-align: center;
+	padding-bottom: 22px;
+    border-bottom: 1px solid #2d2d2d;
+    margin-bottom: 30px;
+}
+
+#header .name {
+	font-size: 30px;
+	font-weight: 500;
+	display: inline-block;
+	margin-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+
+#header .info .gmail, #header .info .number {
+	display: inline-block;
+	padding-left: 10px;
+    padding-right: 10px;
+}
+
+#header .info .gmail {
+	border-right: 1px solid #2d2d2d;
+}
+
+/* Styles for content */ 
+#content .left-column, #content .right-column {
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+#content .left-column {
+	width: 35%;
+	padding-right: 20px;
+	border-right: 1px solid #2d2d2d;
+}
+#content .right-column {
+	width: 65%;
+	float: right;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#content h2 {
+	font-size: 20px;
+	margin-top: 7px;
+	margin-bottom: 7px;
+	font-weight: 500;
+    display: inline-block;
+    border-bottom: 1px dashed #2d2d2d;
+}
+
+#content h3 {
+	font-size: 15px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	font-weight: 600;
+}
+
+#content .left-column .contact, #content .left-column .prog-skills {
+	margin-bottom: 20px; 
+}
+
+#content .left-column .address {
+	display: inline-block;
+	margin-bottom: 15px;
+}
+#content .left-column .social img {
+	width: 25px;
+	height: 25px;
+	vertical-align: middle;
+	border-radius: 50%;
+}
+
+#content .left-column .linkedin {
+	margin-right: 10px;
+}
+
+#content .left-column .prog-skills ul, #content .right-column .workex ul,  #content .right-column .achievements ul {
+	padding-left: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#content .right-column .education .gpa, #content .right-column .achievements .achievement-x {
+	text-decoration: underline;
+}
+
+#content .right-column .details-header .name {
+	float: left;
+}
+
+#content .right-column .details-header .timeline {
+	float: right;
+}
+
+#content .right-column .projects .languages {
+	border-right: 1px solid #2d2d2d;
+	padding-right: 10px;
+}
+
+#content .right-column .projects .demo {
+	padding-left: 10px;
+}
