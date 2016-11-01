@@ -223,6 +223,12 @@ svg {
 	#toolbar .page-number {
 		display: none;
 	}
+	#toolbar .title {
+		margin-left: 15px;
+	}
+	#toolbar .action-icons  {
+		margin-right: 15px;
+	}
 }
 
 @media print {
