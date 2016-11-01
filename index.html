@@ -1,13 +1,25 @@
 <html>
 	<head>
-		<link rel="stylesheet" type="text/css" href="cv/cv.css">
+		<link rel="stylesheet" type="text/css" href="cv.css">
 		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Dosis:400,500,600,700">
 		<link rel="icon" href="cv/logo.png" type="image/x-icon" />
 		<meta name="viewport" content="width=device-width initial-scale=1.0">
 		<title> Sparshith Sampath </title>
 	</head>
-	<body>
-		<div class="wrapper">
+	<body onload="hideToolbarAfterDelay()">
+		<div id="toolbar">
+			<span class="title">Worse is better. &#x1f609;</span>
+			<span class="page-number">1/1</span>
+			<div class="action-icons">
+				<a href="/cv.pdf" download="Curriculum Vitae - Sparshith Sampath" class="download">
+					<svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet"><g><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"></path></g></svg>
+				</a>
+				<a href="#" class="print" onClick="printCV()">
+					<svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet"><g><path d="M19 8H5c-1.66 0-3 1.34-3 3v6h4v4h12v-4h4v-6c0-1.66-1.34-3-3-3zm-3 11H8v-5h8v5zm3-7c-.55 0-1-.45-1-1s.45-1 1-1 1 .45 1 1-.45 1-1 1zm-1-9H6v4h12V3z"></path></g></svg>
+				</a>
+			</div>
+		</div>
+		<div id="wrapper">
 			<div id="header">
 				<h1 class="name">Sparshith Sampath</h1>
 				<div class="info">
@@ -81,7 +93,7 @@
 									<h3> Bachelor of Engineering in Information Science </h3>
 								</span>
 								<span class="timeline">
-									<h3>(September 2011 — June 2015)</h3>
+									<h3>(Sept 2011 — June 2015)</h3>
 								</span>
 							</div>
 							<i>R.V. College of Engineering (Bangalore, India) </i><br>
@@ -120,7 +132,7 @@
 									<h3> Organizations and Behavioural Economics </h3>
 								</span>
 								<span class="timeline">
-									<h3> (June 2014 — August 2014) </h3>
+									<h3> (June 2014 — Aug 2014) </h3>
 								</span>
 							</div>
 							<i>Harvard University, Cambridge, Massachusetts, USA </i><br>
@@ -133,13 +145,13 @@
 									<h3> Zomato Media Pvt Ltd </h3>
 								</span>
 								<span class="timeline">
-									<h3> (August 2016 - September 2016) </h3>
+									<h3> (Aug 2016 - Sept 2016) </h3>
 								</span>
 						</div>
 						<i> Software Development and Growth Engineer </i><br>
 						<ul>
 							<li> Team Lead, Growth and Web (March 2016 to September 2016) </li>
-							<li> Member, Web (August 2015 to February 2016) </li>
+							<li> Member, Web (Aug 2015 to Feb 2016) </li>
 						</ul>
 
 						<!-- *********************************************************************************** -->
@@ -193,5 +205,6 @@
 				</div>
 			</div>
 		</div>
+		<script type="text/javascript" src="cv.js"></script>
 	</body>
 </html>
