@@ -47,12 +47,14 @@ svg {
 #toolbar {
 	position: fixed;
     height: 48px;
+    width: 100%;
     background: rgb(50, 54, 57);
     top: 0;
     left: 0;
     right: 0;
     -webkit-transition: all 1s; /* Safari */
     transition: all 1s;
+    text-align: center;
 }
 
 #toolbar .title {
@@ -63,15 +65,16 @@ svg {
 	font-size: 15px;
 	font-weight: 600;
 	letter-spacing: 0.6px;
+	float: left;
 }
 
 
 #toolbar .page-number {
     color: #fefefe;
     letter-spacing: 10px;
-    left: 37.5%;
     position: relative;
     font-size: 15px;
+    line-height: 48px;
 }
 
 #toolbar .action-icons {
@@ -217,7 +220,9 @@ svg {
 		padding-right: 0;
 
 	}
-
+	#toolbar .page-number {
+		display: none;
+	}
 }
 
 @media print {
@@ -233,7 +238,7 @@ svg {
     top: 0;
     margin-top: 0;
   }
-  
+
   #content .right-column {
   	padding-right: 0;
   }
