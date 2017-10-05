@@ -26,8 +26,9 @@ function hideToolbar() {
 
 document.addEventListener("mousemove", function(event) {
 	if(event.clientX < 100 || event.clientX > screen.availWidth - 100 || event.clientY < 100) {
-   		showToolbar();
+   	showToolbar();
 	} else {
+    showToolbar();
 		hideToolbarAfterDelay(8000);
 	}
 });
