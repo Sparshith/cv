@@ -156,6 +156,11 @@ svg {
 	font-weight: 600;
 }
 
+
+#content .left-column {
+  color: #808080;
+}
+
 #content .left-column .contact, #content .left-column .prog-skills {
 	margin-bottom: 20px; 
 }
